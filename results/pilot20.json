@@ -1,0 +1,185 @@
+{
+  "status": "complete",
+  "completed_cases": 20,
+  "logical_frames": 280,
+  "unique_generated_frames": 240,
+  "candidate_images": 960,
+  "metrics": {
+    "short_contextual": {
+      "all_positions": {
+        "char": {
+          "frames": 100,
+          "correct": 84,
+          "accuracy_percent": 84.0,
+          "micro_f1_percent": 93.5251798561151
+        },
+        "bg": {
+          "frames": 100,
+          "correct": 65,
+          "accuracy_percent": 65.0,
+          "micro_f1_percent": 72.82608695652173
+        }
+      },
+      "continuation_only": {
+        "char": {
+          "frames": 80,
+          "correct": 67,
+          "accuracy_percent": 83.75,
+          "micro_f1_percent": 93.44978165938865
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 52,
+          "accuracy_percent": 65.0,
+          "micro_f1_percent": 72.48322147651007
+        }
+      },
+      "first_four": {
+        "char": {
+          "frames": 80,
+          "correct": 68,
+          "accuracy_percent": 85.0,
+          "micro_f1_percent": 93.75
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 51,
+          "accuracy_percent": 63.75,
+          "micro_f1_percent": 72.10884353741497
+        }
+      },
+      "candidate0_with_selected_history": {
+        "char": {
+          "frames": 100,
+          "correct": 79,
+          "accuracy_percent": 79.0,
+          "micro_f1_percent": 90.29850746268657
+        },
+        "bg": {
+          "frames": 100,
+          "correct": 60,
+          "accuracy_percent": 60.0,
+          "micro_f1_percent": 67.0391061452514
+        }
+      }
+    },
+    "long_stride8": {
+      "all_positions": {
+        "char": {
+          "frames": 100,
+          "correct": 84,
+          "accuracy_percent": 84.0,
+          "micro_f1_percent": 92.96875
+        },
+        "bg": {
+          "frames": 100,
+          "correct": 62,
+          "accuracy_percent": 62.0,
+          "micro_f1_percent": 68.50828729281768
+        }
+      },
+      "continuation_only": {
+        "char": {
+          "frames": 80,
+          "correct": 67,
+          "accuracy_percent": 83.75,
+          "micro_f1_percent": 92.7536231884058
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 49,
+          "accuracy_percent": 61.25,
+          "micro_f1_percent": 67.12328767123287
+        }
+      },
+      "first_four": {
+        "char": {
+          "frames": 80,
+          "correct": 67,
+          "accuracy_percent": 83.75,
+          "micro_f1_percent": 92.7536231884058
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 46,
+          "accuracy_percent": 57.5,
+          "micro_f1_percent": 64.33566433566433
+        }
+      },
+      "candidate0_with_selected_history": {
+        "char": {
+          "frames": 100,
+          "correct": 79,
+          "accuracy_percent": 79.0,
+          "micro_f1_percent": 88.44621513944223
+        },
+        "bg": {
+          "frames": 100,
+          "correct": 52,
+          "accuracy_percent": 52.0,
+          "micro_f1_percent": 57.4585635359116
+        }
+      }
+    },
+    "short_storygptv": {
+      "all_positions": {
+        "char": {
+          "frames": 80,
+          "correct": 67,
+          "accuracy_percent": 83.75,
+          "micro_f1_percent": 92.46231155778895
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 57,
+          "accuracy_percent": 71.25,
+          "micro_f1_percent": 76.82119205298014
+        }
+      },
+      "continuation_only": {
+        "char": {
+          "frames": 60,
+          "correct": 50,
+          "accuracy_percent": 83.33333333333333,
+          "micro_f1_percent": 92.0
+        },
+        "bg": {
+          "frames": 60,
+          "correct": 44,
+          "accuracy_percent": 73.33333333333333,
+          "micro_f1_percent": 77.58620689655173
+        }
+      },
+      "first_four": {
+        "char": {
+          "frames": 80,
+          "correct": 67,
+          "accuracy_percent": 83.75,
+          "micro_f1_percent": 92.46231155778895
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 57,
+          "accuracy_percent": 71.25,
+          "micro_f1_percent": 76.82119205298014
+        }
+      },
+      "candidate0_with_selected_history": {
+        "char": {
+          "frames": 80,
+          "correct": 63,
+          "accuracy_percent": 78.75,
+          "micro_f1_percent": 90.42553191489361
+        },
+        "bg": {
+          "frames": 80,
+          "correct": 49,
+          "accuracy_percent": 61.25,
+          "micro_f1_percent": 67.12328767123287
+        }
+      }
+    }
+  },
+  "metric_scope": "Single-frame character/background label matching; not a stride-control or independent action score",
+  "selection_dependency": "The same classifiers are used in caption-based candidate ranking and final label evaluation"
+}

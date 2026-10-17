@@ -1,0 +1,6 @@
+{
+  "project_root": "../assets/QwenAnimeBaseline",
+  "pilot_cases": "../assets/pilot20/cases.json",
+  "python_qwen": "../.venv-qwen/bin/python",
+  "python_flux": "../.venv-score/bin/python"
+}

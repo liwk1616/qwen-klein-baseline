@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "frames": 256,
+  "current": {
+    "char": {
+      "frames": 256,
+      "correct": 234,
+      "accuracy_percent": 91.40625,
+      "micro_f1_percent": 96.274217585693
+    },
+    "bg": {
+      "frames": 256,
+      "correct": 180,
+      "accuracy_percent": 70.3125,
+      "micro_f1_percent": 76.76348547717842
+    }
+  },
+  "by_position": {
+    "1": {
+      "char": {
+        "frames": 64,
+        "correct": 56,
+        "accuracy_percent": 87.5,
+        "micro_f1_percent": 94.67455621301775
+      },
+      "bg": {
+        "frames": 64,
+        "correct": 45,
+        "accuracy_percent": 70.3125,
+        "micro_f1_percent": 77.3109243697479
+      }
+    },
+    "2": {
+      "char": {
+        "frames": 64,
+        "correct": 59,
+        "accuracy_percent": 92.1875,
+        "micro_f1_percent": 96.5909090909091
+      },
+      "bg": {
+        "frames": 64,
+        "correct": 43,
+        "accuracy_percent": 67.1875,
+        "micro_f1_percent": 72.72727272727273
+      }
+    },
+    "3": {
+      "char": {
+        "frames": 64,
+        "correct": 59,
+        "accuracy_percent": 92.1875,
+        "micro_f1_percent": 96.93251533742331
+      },
+      "bg": {
+        "frames": 64,
+        "correct": 48,
+        "accuracy_percent": 75.0,
+        "micro_f1_percent": 82.92682926829268
+      }
+    },
+    "4": {
+      "char": {
+        "frames": 64,
+        "correct": 60,
+        "accuracy_percent": 93.75,
+        "micro_f1_percent": 96.93251533742331
+      },
+      "bg": {
+        "frames": 64,
+        "correct": 44,
+        "accuracy_percent": 68.75,
+        "micro_f1_percent": 73.94957983193277
+      }
+    }
+  },
+  "frames_with_references": 221,
+  "visual_format_errors": 22,
+  "changed_reference_protocol": true
+}

@@ -1,0 +1,360 @@
+{
+  "source_roots": [
+    "QwenAnimeBaseline",
+    "kuadu"
+  ],
+  "files": [
+    {
+      "file": "core/__init__.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/__init__.py",
+      "changes": [],
+      "bytes": 0
+    },
+    {
+      "file": "core/aligned_encoders.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/aligned_encoders.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 8861
+    },
+    {
+      "file": "core/archive_io.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/archive_io.py",
+      "changes": [],
+      "bytes": 2059
+    },
+    {
+      "file": "core/causal_candidate_protocol.py",
+      "source": "kuadu/baseline-pilot20-stride8/run_001/source/causal_candidate_protocol.py",
+      "changes": [],
+      "bytes": 6657
+    },
+    {
+      "file": "core/char_klein.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/char_klein.py",
+      "changes": [],
+      "bytes": 7714
+    },
+    {
+      "file": "core/character_reference_training.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/character_reference_training.py",
+      "changes": [],
+      "bytes": 4908
+    },
+    {
+      "file": "core/current_bank.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/current_bank.py",
+      "changes": [],
+      "bytes": 4817,
+      "frozen_reference": "kuadu/baseline-pilot20-stride8/run_001/source/{run_text_reference_factorial.py,text_reference_factorial_protocol.py,run_reference_rollout.py}"
+    },
+    {
+      "file": "core/independent_candidate_protocol.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/independent_candidate_protocol.py",
+      "changes": [],
+      "bytes": 10178
+    },
+    {
+      "file": "core/klein_style_condition.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/klein_style_condition.py",
+      "changes": [],
+      "bytes": 217
+    },
+    {
+      "file": "core/lora_config.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/lora_config.py",
+      "changes": [],
+      "bytes": 281
+    },
+    {
+      "file": "core/models.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/models.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 14488,
+      "frozen_reference": "kuadu/baseline-pilot20-stride8/run_001/source/causal_candidate_worker.py:Models"
+    },
+    {
+      "file": "core/prepare_char_klein.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/prepare_char_klein.py",
+      "changes": [],
+      "bytes": 1118
+    },
+    {
+      "file": "core/progressive_protocol.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/progressive_protocol.py",
+      "changes": [],
+      "bytes": 7808
+    },
+    {
+      "file": "core/qwen_patch_embedding.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/qwen_patch_embedding.py",
+      "changes": [],
+      "bytes": 1799
+    },
+    {
+      "file": "core/raw_generate.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/raw_generate.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 8253
+    },
+    {
+      "file": "core/raw_prepare.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/raw_prepare.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 5768
+    },
+    {
+      "file": "core/raw_rank.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/raw_rank.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 10948
+    },
+    {
+      "file": "core/runtime_io.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/runtime_io.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 469
+    },
+    {
+      "file": "core/stage_b_score.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/stage_b_score.py",
+      "changes": [],
+      "bytes": 7336
+    },
+    {
+      "file": "core/story_klein_mapper.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/story_klein_mapper.py",
+      "changes": [],
+      "bytes": 3232
+    },
+    {
+      "file": "core/story_reference_refresh.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/story_reference_refresh.py",
+      "changes": [],
+      "bytes": 5932
+    },
+    {
+      "file": "core/storygptv_data_bundle.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/storygptv_data_bundle.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 7285
+    },
+    {
+      "file": "core/storygptv_protocol.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/metrics/storygptv_protocol.py",
+      "changes": [],
+      "bytes": 3866
+    },
+    {
+      "file": "run_metrics.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/run_metrics.py",
+      "changes": [
+        "Restrict CLI to raw_single/raw_best4 and frozen history_best4; portable paths and interpreters; retain frozen generation/ranking math."
+      ],
+      "bytes": 16175
+    },
+    {
+      "file": "runtime.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/runtime.py",
+      "changes": [
+        "Portable asset configuration and baseline-only launch options."
+      ],
+      "bytes": 4364
+    },
+    {
+      "file": "run_train.py",
+      "source": "QwenAnimeBaseline/research_code_20261012/run_train.py",
+      "changes": [
+        "Portable asset paths and interpreter; explicit character/reference/story presets; boolean flag handling and dry-run."
+      ],
+      "bytes": 2438
+    },
+    {
+      "file": "core/pilot_frame.py",
+      "source": "kuadu/baseline-pilot20-stride8/run_001/source/run_baseline_pilot.py",
+      "changes": [
+        "Extract make_request and generate_frame; replace module import paths only."
+      ],
+      "bytes": 4315
+    },
+    {
+      "file": "core/train_aligned_klein.py",
+      "source": "QwenAnimeBaseline/outputs/flintstones_klein_reference_alignment_20260920/run_001/source/train_aligned_klein.py",
+      "changes": [
+        "Resolve embedded historical asset paths in memory via asset_paths; no original files modified."
+      ],
+      "bytes": 28937
+    },
+    {
+      "file": "core/aligned_data.py",
+      "source": "QwenAnimeBaseline/outputs/flintstones_klein_reference_alignment_20260920/run_001/source/aligned_data.py",
+      "changes": [
+        "Load the bundled public_transforms.py instead of executing source from the external data tree."
+      ],
+      "bytes": 9990
+    },
+    {
+      "file": "core/public_transforms.py",
+      "source": "QwenAnimeBaseline/outputs/flintstones_klein_reference_alignment_20260920/run_001/source/public_transforms.py",
+      "changes": [],
+      "bytes": 9031
+    }
+  ],
+  "checks": "Explicit source paths and file sizes; no content fingerprints.",
+  "packaging_files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 100,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 304,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 738,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6378,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "THIRD_PARTY.md",
+      "bytes": 937,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "check.py",
+      "bytes": 8488,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "configs/assets.example.json",
+      "bytes": 192,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "configs/metrics.json",
+      "bytes": 1338,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "configs/training.json",
+      "bytes": 1799,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "core/asset_paths.py",
+      "bytes": 931,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "docs/ASSETS.md",
+      "bytes": 4713,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "docs/GITHUB.md",
+      "bytes": 1257,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "docs/HANDOFF.md",
+      "bytes": 4892,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "docs/PROTOCOLS.md",
+      "bytes": 4784,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "docs/VALIDATION.md",
+      "bytes": 2543,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "requirements-common.txt",
+      "bytes": 169,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "requirements-flux.txt",
+      "bytes": 48,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "requirements-qwen.txt",
+      "bytes": 48,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "results/history_256.json",
+      "bytes": 1742,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "results/pilot20.json",
+      "bytes": 4815,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "results/raw_best4.json",
+      "bytes": 1363,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "results/raw_single.json",
+      "bytes": 1367,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "run.py",
+      "bytes": 1940,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "run_pilot.py",
+      "bytes": 9569,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "tests/test_protocols.py",
+      "bytes": 10121,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "tools/check_publish.py",
+      "bytes": 2010,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "tools/compose_d1.py",
+      "bytes": 2342,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "tools/export_assets.py",
+      "bytes": 5018,
+      "purpose": "New packaging, configuration, handoff, or validation file"
+    }
+  ],
+  "frozen_history_parser": "Uses the 2026-10-09 archived case-sensitive parser, not the later relaxed parser."
+}

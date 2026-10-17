@@ -1,0 +1,23 @@
+{
+  "model": "models/flux2-klein-base-4b",
+  "qwen": "models/qwen3.5-4b",
+  "data": "data/flintstones_storygptv_20260916/released_001",
+  "bank_source": "outputs/flintstones_klein_aligned_fresh_20260916/run_001/character_training_000000",
+  "character_checkpoint": "outputs/flintstones_klein_four_gpu_20260918/run_001/character_training_025000/checkpoint_025000",
+  "mapper_checkpoint": "outputs/flintstones_klein_story_continue_20260919/run_001/story_training_008000/checkpoint_008000",
+  "classifiers": "data/flintstones/evaluators_safetensors_20260915",
+  "combined_parameters": 12593975587,
+  "steps": 32,
+  "guidance": 4.0,
+  "width": 512,
+  "height": 512,
+  "merge_start": 0,
+  "mapper_weight": 1.0,
+  "background_names": "data/flintstones_validation256_20261002/v1/inputs/background_names.json",
+  "stories": "data/flintstones_validation256_20261002/v1/inputs/stories_256.jsonl",
+  "raw_stories": "data/flintstones_storygptv_20260916/released_001/evaluation/test_generation_stories.jsonl",
+  "raw_seed_subset": "data/flintstones_storygptv_20260916/released_001/evaluation/test10_existing_generation_stories.jsonl",
+  "raw_annotations": "data/flintstones/cleaned_annotations.json",
+  "raw_character_checkpoint": "outputs/flintstones_klein_component_cross_validation_20260920/run_001/components/D1",
+  "labels": "data/flintstones"
+}

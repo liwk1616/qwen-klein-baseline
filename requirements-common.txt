@@ -1,0 +1,10 @@
+torch==2.9.1
+torchvision==0.24.1
+diffusers==0.38.0
+peft==0.20.0
+safetensors==0.8.0
+numpy==1.26.4
+Pillow==12.1.0
+accelerate==1.14.0
+sentencepiece==0.2.1
+protobuf==6.33.5
