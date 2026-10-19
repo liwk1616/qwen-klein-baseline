@@ -232,12 +232,12 @@
     },
     {
       "file": "README.md",
-      "bytes": 6378,
+      "bytes": 7132,
       "purpose": "New packaging, configuration, handoff, or validation file"
     },
     {
       "file": "THIRD_PARTY.md",
-      "bytes": 937,
+      "bytes": 1665,
       "purpose": "New packaging, configuration, handoff, or validation file"
     },
     {
@@ -267,12 +267,12 @@
     },
     {
       "file": "docs/ASSETS.md",
-      "bytes": 4713,
+      "bytes": 5138,
       "purpose": "New packaging, configuration, handoff, or validation file"
     },
     {
       "file": "docs/GITHUB.md",
-      "bytes": 1257,
+      "bytes": 1674,
       "purpose": "New packaging, configuration, handoff, or validation file"
     },
     {
@@ -287,7 +287,7 @@
     },
     {
       "file": "docs/VALIDATION.md",
-      "bytes": 2543,
+      "bytes": 4171,
       "purpose": "New packaging, configuration, handoff, or validation file"
     },
     {
@@ -354,6 +354,41 @@
       "file": "tools/export_assets.py",
       "bytes": 5018,
       "purpose": "New packaging, configuration, handoff, or validation file"
+    },
+    {
+      "file": "LICENSE-WEIGHTS",
+      "bytes": 11358,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
+    },
+    {
+      "file": "NOTICE-WEIGHTS.md",
+      "bytes": 1863,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
+    },
+    {
+      "file": "docs/MODEL_CARD.md",
+      "bytes": 5183,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
+    },
+    {
+      "file": "docs/WEIGHTS.md",
+      "bytes": 3882,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
+    },
+    {
+      "file": "docs/WEIGHT_RELEASE_NOTES.md",
+      "bytes": 1618,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
+    },
+    {
+      "file": "tests/test_weights.py",
+      "bytes": 7409,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
+    },
+    {
+      "file": "tools/weights.py",
+      "bytes": 19376,
+      "purpose": "Frozen weight release packaging, installation, publication, license, or validation"
     }
   ],
   "frozen_history_parser": "Uses the 2026-10-09 archived case-sensitive parser, not the later relaxed parser."

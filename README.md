@@ -1,6 +1,6 @@
 # Qwen Klein Baseline 交接仓库
 
-本仓库保留两条已冻结的 Flintstones baseline，供接手、复现和后续对照实验使用。代码包含数据准备、推理、自动选图、指标计算和原有训练入口。权重、数据集与生成结果通过外部资源目录提供。
+本仓库保留两条已冻结的 Flintstones baseline，供接手、复现和后续对照实验使用。代码包含数据准备、推理、自动选图、指标计算和原有训练入口。项目训练权重通过 [GitHub Releases](https://github.com/liwk1616/qwen-klein-baseline/releases) 单独发布，按 Apache-2.0 提供；基础模型、数据集与生成结果通过外部资源目录提供。权重清单见 [模型卡](docs/MODEL_CARD.md)，发布和下载操作见 [权重说明](docs/WEIGHTS.md)。
 
 | 版本 | 入口 | 输入与历史 | 人物权重 | Mapper |
 | --- | --- | --- | --- | --- |
@@ -41,7 +41,13 @@ cp configs/assets.example.json configs/assets.local.json
 
 将师兄提供的资源放入 `assets/`，或修改 `configs/assets.local.json` 指向已有资源目录。该配置中的相对路径以配置文件所在目录为基准；`configs/metrics.json` 中的资源路径以 `project_root` 为基准。也可用 `python run.py --assets /path/to/assets.json ...` 指定外部本机配置。
 
-资源清单、复制命令以及模型符号链接处理见 [资源交接](docs/ASSETS.md)。两个 baseline 的推理资源合计约 24.31 GiB，代码仓库不包含这些文件。
+资源清单、复制命令以及模型符号链接处理见 [资源交接](docs/ASSETS.md)。两个 baseline 的完整推理资源合计约 24.31 GiB，其中本项目训练的五个权重文件约 454.80 MiB。Release 发布完成后，可以自动下载这部分权重并恢复目录结构：
+
+```bash
+python tools/weights.py install --variant all --output assets/QwenAnimeBaseline
+```
+
+此命令只安装本项目 checkpoint；基础模型、图库、评分器和评测数据仍按资源清单准备。已有原项目权重目录的使用者可直接配置路径，无需重复安装。
 
 先运行 CPU 检查：
 
@@ -98,5 +104,6 @@ python run.py pilot run --output outputs/pilot_smoke
 3. [训练与代码导读](docs/HANDOFF.md)：理解模块、原训练阶段、D1 组合和恢复条件。
 4. [检查记录](docs/VALIDATION.md)：了解本次已验证范围及尚未重跑的部分。
 5. [上传 GitHub](docs/GITHUB.md)：以本目录为仓库根目录上传。
+6. [权重发布与下载](docs/WEIGHTS.md)：按版本安装权重，或维护 Releases。
 
 所有运行只读取外部原始资源，在指定的新输出目录中写入结果。源码来源和包装层调整记录在 [SOURCE_MAP.json](SOURCE_MAP.json)。
